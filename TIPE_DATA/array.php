@@ -1,5 +1,5 @@
 <?php
 $Student = ["Jodi", "Jonatan", "Karo Karo"];
-$Student[3] = "Kacaribu";
-unset($Student[0]);
+$Student[] = "Kacaribu";
+echo count($Student) . "\n";
 echo $Student[3];
