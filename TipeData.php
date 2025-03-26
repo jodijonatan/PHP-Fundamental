@@ -1,6 +1,6 @@
 <?php
-$name = "Jodi Jonatan";
-$age = 16;
+define("NAMA_KREATOR", "Jodi Jonatan");
+define("ANGKATAN", 33);
 
-echo "Nama saya: $name\n";
-echo "Usia saya: $age";
+echo NAMA_KREATOR ."\n";
+echo ANGKATAN;
