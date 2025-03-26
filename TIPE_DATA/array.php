@@ -17,17 +17,30 @@
 // echo $siswa['nama'];
 
 
-$siswa = [
-    "Budi" => [
-        "nama" => "budi simanjuntak",
-        "umur" => 17,
-        "tinggi" => 1.9
-    ],
-    "andre" => [
-        "nama" => "andriana nababan",
-        "umur" => 19,
-        "tinggi" => 1.75
+// $siswa = [
+//     "Budi" => [
+//         "nama" => "budi simanjuntak",
+//         "umur" => 17,
+//         "tinggi" => 1.9
+//     ],
+//     "andre" => [
+//         "nama" => "andriana nababan",
+//         "umur" => 19,
+//         "tinggi" => 1.75
+//     ]
+// ];
+
+// echo $siswa['andre']['nama'];
+
+
+$jodi = [
+    "id" => "jo",
+    "name" => "jodi jonatan",
+    "age" => 16,
+    "address" => [
+        "city" => "medan",
+        "country" => "indonesia"
     ]
 ];
 
-echo $siswa['andre']['nama'];
+echo ($jodi['address']['country']);
